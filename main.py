@@ -60,11 +60,12 @@ root.title("title")
 
 def key():
     l2=Label(text="Hi there!")
-    
+    l2.pack()
 button=Button(text="Click here", command=key)
 
 # l.place(x=30,y=30)
 # btn.place(x=30,y=50)
 button.pack()
+
 
 root.mainloop()
